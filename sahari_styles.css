@@ -146,10 +146,10 @@
 .Signup {
     color:aquamarine;
     background: linear-gradient(to top,rgb(0,0,0,0.5),rgba(0,0,0,0.5));
-    width: 40vw;
-    height: 50vh;
+    width: 30vw;
+    height: 40vh;
     float: right;
-    margin-top: 25vh;
+    margin-top: 15vh;
     margin-right: 30vw;
     text-align: center;
     padding: 10vw;
