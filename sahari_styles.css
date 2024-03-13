@@ -146,8 +146,8 @@
 .Signup {
     color:aquamarine;
     background: linear-gradient(to top,rgb(0,0,0,0.5),rgba(0,0,0,0.5));
-    width: 300vw;
-    height: 450vh;
+    width: 40vw;
+    height: 50vh;
     float: right;
     margin-top: 25vh;
     margin-right: 30vw;
