@@ -1,0 +1,74 @@
+
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet"  href="sahari_styles.css"/>
+        <title>Login Page</title>
+        <style>  
+            .main {
+                 
+                 width: 100vw;
+                 height: 100vh;
+                 }
+             body {
+                     background: linear-gradient(to top,rgb(0, 0, 0, 0.3),rgba(0, 0, 0, 0.4)),url(bkg-1.jpg);
+                     background-position: center;
+                     background-size: cover;
+                 }
+ 
+         </style>
+        <style> 
+                         
+            input[type=checkbox] { 
+                vertical-align: middle; 
+                position: relative; 
+                bottom: 1px; 
+            } 
+              
+            label { 
+                display: block; 
+                margin-top: 20px;
+            } 
+        </style> 
+    </head>
+        <body>
+            <div class="brand">
+                <img src="sahari-logo-2.png">
+            </div>
+
+            
+        <div class="main">
+            <Form  method="post" action="login.php">
+            <div class="Signin">
+                <h1>Sign In </h1>
+                
+                    <input type="text" name="username" placeholder="username">   
+                    <input type="password" name="password" placeholder="password">
+                    <div class="lin_btn">
+                        <button type="submit" name="submit" class="btn">SignIn</button>
+                    </div>
+            
+                <div class = "check-wrap">
+                    <!--<input type="checkbox" name="rememberme">Remember me</input>-->
+                    
+                   <!--<span class="cktxt">Remember me</span>-->
+
+                
+                    <a  href="forgot-password.php">Forgot-Password</a>
+                </div>
+                <label> 
+                    <input type="checkbox">  
+                  Remember me 
+                </label> 
+               
+                <a href="index.php"><button type="submit" class="spl btn">SignUp</button></a><br>
+                If you don't have account.
+
+
+
+            </div>
+            </Form>
+        </div>
+        </body>
+<html>
+
